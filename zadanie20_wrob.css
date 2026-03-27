@@ -1,0 +1,51 @@
+#jeden{
+    background-color: #FFFDD0;
+    width: 100%;
+    height: 40%;
+}
+p{
+    color: orange;
+    font-size: 20pt;
+    font-family: arial;
+}
+#dwa{
+    background-color: #ff00ff;
+    width: 80%;
+    height: 15%;
+}
+i{
+    color: green;
+    font-size: 20pt;
+    text-decoration: double;
+}
+strike{
+    color: red;
+    font-size: 20pt;
+}
+u{
+    color: purple;
+    font-size: 20pt;
+    text-decoration: overline;
+}
+#trzy{
+    background-color: #C0d727;
+    width: 100%;
+    height: 30%;
+}
+h1{
+    color: blue;
+    font-size: 30pt;
+    text-decoration: underline;
+}
+#li1{
+    color: blue;
+    font-size: 25pt;
+}
+#li2{
+    color: red;
+    font-size: 20pt;
+}
+#li3{
+    color: gray;
+    font-size: 15pt;
+}

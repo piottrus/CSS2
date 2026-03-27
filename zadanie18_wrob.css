@@ -1,0 +1,57 @@
+body {
+background-color: green;
+}
+
+
+#div1 {
+width: 1107px;
+background-color: purple;
+}
+
+#span1 {
+color: fuchsia;
+font-size: 1,2cm;
+font-family:'Times New Roman';
+}
+
+#ul1 {
+color: aqua;
+font-size: 8mm;
+font-family:Georgia ;
+}
+
+#div2 {
+width: 1007px;
+background-color: maroon;
+}
+
+#span2 {
+color: blue;
+font-size: 1,6cm;
+}
+
+#span2.1 {
+font-size: 8mm;
+}
+
+#ul2 {
+color: gray;
+font-size: 7mm;
+}
+
+#div3 {
+width: 1207px;
+background-color: red;
+}
+
+#span3 {
+color: green;
+font-size: 1cm;
+font-family: Verdana;
+}
+
+#ul3 {
+color: yellow;
+font-size: 9mm;
+font-family: sans-serif;
+}

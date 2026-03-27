@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pl-PL">
+<head>
+<meta charset="UTF-8">
+<title>Wróbel Z9_html</title> 
+</head>
+<body>
+<ol>
+    <b><li>Składnia teoretyczna → otoczony ramką (może być tabela jedno komórkowa, 
+            konieczne wcięcia).</li></b> 
+
+    <b><li>Gdzie wstawiany jest  styl zewnętrzny, jaki znacznik jest za to odpowiedzialny oraz 
+            ile razy może on występować w dokumencie, jako podłączenie stylu CSS? </li></b>
+            Wstawienie wystarczy wpisać w treści nagłówkowej każdego z dokumentów (pomiędzy 
+            znacznikami <.head> a <./head>). 
+            <br>Używamy znacznika <.link rel="Stylesheet" />, liczba użyć dowolna. 
+
+    <b><li>Jak jest najprostsza forma wstawiania stylu zewnętrznego → otoczony ramką (może 
+            być tabela jedno komórkowa? </li></b> 
+             Najprostszy sposób to użycie <.link> w <.head> ---
+            
+            <.link rel="stylesheet" href="style.css">
+            
+
+    <b><li>Ile arkuszy styli może być dołączanych do jednego dokumentu HTML oraz jaka zasad 
+            musi być zachowana przy większej ilości dołączanych styli? </li></b> 
+            Można dołączyć dowolną liczbę zewnętrznych arkuszy stylów  - każdy jako osobny element <.link rel="Stylesheet" />.
+
+    <b><li>Co się dzieje w przypadku konfliktów? Przez konflikt rozumiemy, gdy te same style 
+            są definiowane w różnych arkuszach styli podłączone do tego samego arkusza. </li></b> 
+            W przypadku konfliktów, ważniejsze będą deklaracje z arkusza dołączonego później.
+
+    <b><li>Jak są tworzone i edytowane pliki arkuszy z użyciem edytora tekstowego? </li></b> 
+
+    <b><li>Jak są tworzone i edytowane pliki arkuszy z użyciem specjalnego edytora CSS?  </li></b> 
+
+    <b><li>Jakie rozszerzenie posiadają plik będący zewnętrznym arkuszem styli? </li></b> 
+             Plik będący zewnętrznym arkuszem stylów musi mieć 
+            rozszerzenie *.css 
+    <b><li>Jakie są zalety zewnętrznego arkusza styli( dwie – z użyciem wyliczenia? </li></b> 
+        <ol>
+            <li>wszystkie nasze strony w obrębie całego serwisu mogą mieć pewne wspólne cechy.  </li>
+            <li>jeśli w ostatniej chwili zdecydujemy się zmienić np. rodzaj czcionki na wszystkich 
+                stronach, możemy to zrobić, modyfikując jedynie zewnętrzny arkusz stylów, bez 
+                konieczności zmiany każdej strony osobno.  </li>
+        </ol>
+    <b><li>Uwagi na temat pisania w CSS. </li></b> 
+    <ol>
+        <li>Język CSS dopuszcza stosowanie zarówno dużych, jak i małych liter.  
+            Poprawnymi nazwami atrybutu są background, backGROUND oraz BACKground. </li>
+        <li>Wstawienie białych znaków (spacje, tabulacje, znaki nowej linii) w arkuszu CSS nie ma 
+            wpływu na jego działanie.</li>
+        <li>Dlatego możesz ułożyć wpisywane reguły CSS w taki sposób, aby były bardziej czytelne</li>
+        <li>Komentarze w arkuszu stylów  
+            pisze się używając znaków: /* (otworzenie komentarza) oraz */ (zamknięcie komentarza),  
+            np.: /*to jest komentarz*/.   
+            Wszystko pomiędzy tymi znakami jest ignorowane przez przeglądarkę. </li>
+        <li>Część poleceń stylów CSS nie sa interpretowane przez niektóre przeglądarki internetowe lub 
+            jest obsługiwana odmiennie. Dlatego zawsze należy sprawdzać efekty w praktyce - jeśli to 
+            możliwe, to najlepiej w kilku najbardziej popularnych przeglądarkach: Microsoft Internet 
+            Explorer, Netscape/Mozilla/Firefox (czyli przeglądarki oparte na silniku Gecko), Opera.  </li>
+    </ol>
+</ol>
+
+
+</body>
+</html>
+
+<!--  Wróbel Z9_html  --> 

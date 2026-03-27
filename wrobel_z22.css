@@ -1,0 +1,16 @@
+p {
+    color: red;
+    font-size: 22pt;
+}
+
+#gruby_wrobel {
+    color:green;
+    font-size: 17pt;
+    font-weight: bold;
+}
+
+#dlawszystkich_wrobel {
+    color: yellow;
+    font-size: 10pt;
+    font-family: Arial;
+}

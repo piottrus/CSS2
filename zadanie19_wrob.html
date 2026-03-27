@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wróbel Z19_html</title>
+    <style>
+        p {
+            color: red;
+            font-size: 40mm;
+        }
+
+        span {
+            font-size: 25mm;
+        }
+
+        b {
+            color: green;
+        }
+    </style>
+</head>
+
+<body>
+    <div style="background-color: silver">
+        <span>
+            <b>To jest pogrubienie w ramach DIV oraz SPAN i dlatego jest czerwone na żółtym tle</b>,<br>
+            a to jest zwykły tekst - również wewnątrz DIV i SPAN.
+        </span><br>
+        To jest zwykły tekst, ale tylko wewnątrz DIV - dlatego nie jest czerwony, ale ma żółte tło.<br>
+        <p>A to jest akapit (element blokowy) w ramach DIV.</p>
+    </div>
+    <span style="color: green">
+        <b>To jest pogrubienie (element wyświetlany w linii) w ramach SPAN</b>,
+        a to jest zwykły tekst - również wewnątrz span.
+    </span>
+    <ol>
+        <li style="color: rgb(200, 0, 255); "><span style="color: black; ">Punkt pierwszy</span></li>
+        <li style="color: rgb(255, 100, 255); "><span style="color: black; ">Punkt drugi</span></li>
+        <li style="color: rgb(170, 225, 255); "><span style="color: black; ">Punkt trzeci</span></li>
+    </ol>
+</body>
+
+</html>
+<!-- Piotr Wróbel -->
