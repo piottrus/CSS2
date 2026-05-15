@@ -1,0 +1,134 @@
+<!DOCTYPE html> 
+<html> 
+<head> 
+ <title>zadanie 56 Wróbel</title> 
+ <meta charset="utf-8" />
+<LINK href="wrob_z58.css" rel="stylesheet" type="text/CSS">
+</head> 
+<body>
+<ol>
+    <li>Co to są pseudoklasyk?</li>
+    <p>CSS przewiduje kilka ściśle określonych klas pozwalających na formatowanie niektórych
+        elementów dokumentu są to Pseudoklasy. </p>
+
+    <li>Uwaga dotycząca dwukropka:</li>
+    <p>Szalenie istotnym elementem w tej konstrukcji jest dwukropek występujący pomiędzy 
+        selektorem a nazwą klasy.  </p>
+
+    <li>Tabela(wykonana w htmlu)  opisującą pseudoklasy. </li>
+
+    <table width=800 border="1">
+        <tr>
+            <td> <p>A:link,<p> </td>
+            <td> odpowiada za wygląd hiperłącza, jeżeli nie zostało ono jeszcze odwiedzone. </td>
+        </tr>
+
+        <tr>
+            <td> <p>A:visited,<p> </td>
+            <td>odpowiada za formatowanie hiperłącza już odwiedzonego. </td>
+        </tr>
+
+        <tr>
+            <td> <p>A:hover, </p> </td>
+            <td>zmiany pewnych elementów po najechaniu na nie urządzeniem 
+                wskazującym (np. myszą), np. odsyłacz, nad którym zatrzymano kusor 
+                lub element blokowy DIV. </td>
+        </tr>
+
+         <tr>
+            <td> <p>A:active, </p> </td>
+            <td>pozwala nadać dowolne formatowanie elementowi po nakierowaniu na 
+                niego wskaźnika myszy i wciśnięciu przycisku, ale przed jego 
+                zwolnieniem (odsyłacz aktywnykliknięty).  </td>
+        </tr>
+
+        <tr>
+            <td> <p>A:focus, </p> </td>
+            <td>jeżeli chcemy, by właśnie wyświetlany odsyłacz z menu był 
+                formatowany innym kolorem.  Odsyłacz posiadającytzw fokus
+                zaznaczony przy poruszaniu się po dokumencie przy pomocy 
+                klawiszatabulacji: naciśnięcie w tym momencie klawisza ENTER 
+                spowoduje taką reakcję przeglądarki, jakby dany odsyłacz został 
+                kliknięty.  </td>
+        </tr>
+
+        <tr>
+            <td> <p>:lang  </p> </td>
+            <td>formatowanie wielojęzykowych dokumentów. </td>
+        </tr>
+
+        <tr>
+            <td> <p>:first-child </p> </td>
+            <td>umożliwia określenie formatowania dla pierwszego dziecka wybranego elementu.</td>
+        </tr>
+
+    </table>
+
+    <li>Zastosowanie pseudoklasy :active </li>
+    <ul>
+        <li><p>można używać jako uzupełnienia definicji odnośników </p></li>
+        <li><p>jako elementu poprawiającego czytelność formularzy. </p></li>
+    </ul>
+
+    <li>Przykłady (trzy) kodów  definiowania pseudoklas (wraz z tematem) </li>
+    <table>
+        <tr>
+            <td><br><p>Przykład 1</p>
+                <p>Temat: Arkusz wykorzystujący :link  oraz  :visitedpseudoklasy w połączeniu z selektorem A.  Przykładowa definicja sformatuje odnośnik za pomocą koloru czerwonego i po wybraniu taki odnośnik będzie miał kolor zielony. </p>
+                
+                A:link <br>
+                    {  <br>
+                color:red;  <br>
+                } <br>
+                A:visited <br>
+                { <br>
+                color:
+            </td>
+        </tr>
+    </table>
+
+    <table>
+        <tr>
+            <td><p>Przykład 2</p>
+                <p>Temat: Formatowanie wyglądu wszystkich odnośników w dokumencie XHTML/HTML. </p>
+                
+                A/* Definicja odsyłacza podstawowego*/ <br>
+                    { <br>
+                    font-size:12pt; <br>
+                text-decoration:none; <br>
+                    } <br>
+                A:link <br>
+                    { <br>
+                color:navy; <br>
+                    } <br>
+                A:visited <br>
+                    { <br>
+                color:green; <br>
+                    } <br>
+                A:hover <br>
+                    { <br>
+                color:red; <br>
+                text-decoration:underline; <br>
+                } 
+            </td>
+        </tr>
+    </table>
+
+      <table>
+        <tr>
+            <td><p>Przykład 3</p>
+                <p>Temat: Zastosowanie :focus </p>
+
+                A:focus <br>
+                  { <br>
+                color:braun; <br>
+                  } 
+            </td>
+        </tr>
+    </table>
+</ol>
+
+</body> 
+</html>
+ 
+<!-- Piotr Wróbel -->
