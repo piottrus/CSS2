@@ -1,0 +1,66 @@
+<!DOCTYPE html> 
+<html> 
+<head> 
+ <title>zadanie 64 Wróbel</title> 
+<LINK href="wrob_z64.css" rel="stylesheet" type="text/CSS">
+ <meta charset="utf-8" />
+</head> 
+<body>
+
+<ol>
+
+<li>tabelę zaokrąglenie narożników obszarów bloków np. DIV, </li>
+<table width=800 border="1">
+    <tr>
+        <td colspan="2" align="center"><b>Zaokrąglenie narożników obszarów bloków np. DIV</b></td>
+    </tr>
+    <tr>
+        <td>Zaokrąglenie górnego-lewego narożnika: </td>
+        <td>selektor { border-top-left-radius: zaokrąglenie } </td>
+    </tr>
+    <tr>
+        <td>Zaokrąglenie górnego-prawego narożnika: </td>
+        <td>selektor { border-top-right-radius: zaokrąglenie } </td>
+    </tr>
+    <tr>
+        <td>Zaokrąglenie dolnego-prawego narożnika: </td>
+        <td>selektor { border-bottom-right-radius: zaokrąglenie } </td>
+    </tr>
+    <tr>
+        <td>Zaokrąglenie dolnego-lewego narożnika: </td>
+        <td>selektor { border-bottom-left-radius: zaokrąglenie } </td>
+    </tr>
+</table>
+
+<li>zastosowanie oraz uwagi dotyczące zaokrąglania narożników</li>
+<p>We wszystkich przypadkach selektorem może być dowolny znacznik, np.</p>  
+<ul>
+<li>p – akapit </li>
+<li>h1 –nagłówek </li>
+<li>div –blok </li>
+</ul>
+
+<p>Natomiast "zaokrąglenie" określa promień wyrażony w jednostkach długości albo w procentach (względem obszaru obramowania - zobacz: Model pudełkowy). Możliwe jest tutaj podanie:</p>
+<ul>
+<li>jednej wartości - zaokrąglenie symetryczne </li>
+<li>dwóch wartości - pierwsza określa poziomy promień ćwiartki elipsy zaokrąglenia, a druga - pionowy  </li>
+</ul>
+
+<li>przykład z instrukcji</li>
+<textarea cols="30" rows="1">
+border-top-right-radius: 10px
+</textarea>
+
+<li>opis w jaki sposób centrujemy DIVy</li>
+<p>W definicja CSS bloku DIV należy wpisać:</p>
+<textarea cols="30" rows="2">
+margin-left: auto;
+margin-right: auto; 
+</textarea>
+
+</ol>
+
+</body> 
+</html>
+ 
+<!-- Piotr Wróbel -->

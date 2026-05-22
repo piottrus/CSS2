@@ -1,0 +1,34 @@
+#dane {
+    font-size: 2cm;
+    color: red;
+}
+
+#blok1_wrobel {
+    width: 627px;
+    background-color: green;
+}
+
+#blok1_wrobel:hover  {
+    background-color: orange;
+    font-size: 20mm;
+}
+
+#blok2_wrobel {
+    width: 627px;
+    background-color: green;
+}
+
+#blok2_wrobel:hover  {
+    background-color: lightgreen;
+    font-size: 20mm;
+}
+
+#blok3_wrobel {
+    width: 627px;
+    background-color: green;
+}
+
+#blok3_wrobel:hover  {
+    background-color: gold;
+    font-size: 20mm;
+}
